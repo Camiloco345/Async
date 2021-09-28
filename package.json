@@ -1,0 +1,29 @@
+{
+  "name": "asyncjs",
+  "version": "1.0.0",
+  "description": "curso de asincronismo JS",
+  "main": "index.js",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camiloco345/Async.git"
+  },
+  "keywords": [
+    "callBacks",
+    "promise",
+    "async",
+    "await"
+  ],
+  "author": "camilo ovalle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Camiloco345/Async/issues"
+  },
+  "homepage": "https://github.com/Camiloco345/Async#readme"
+}
