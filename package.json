@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "Callback": "node Callbacks/Challenge.js",
-    "Promise": "node Promises/Promises.js"
+    "Promise": "node Promises/Promises.js",
+    "Promise:challenge": "node Promises/Challenge2"
   },
   "repository": {
     "type": "git",
