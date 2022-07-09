@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "asyncjs",
   "version": "1.0.0",
   "description": "curso de asincronismo JS",
