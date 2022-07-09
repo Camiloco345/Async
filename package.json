@@ -4,6 +4,8 @@
   "description": "curso de asincronismo JS",
   "main": "index.js",
   "devDependencies": {
+    "fetch": "^1.1.0",
+    "node-fetch": "^3.2.6",
     "xmlhttprequest": "^1.8.0"
   },
   "scripts": {},

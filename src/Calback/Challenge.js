@@ -21,16 +21,9 @@ const fetchData = (urlApi, callback) => {
 
 fetchData(`${API}/pokemon`, (error1, data1)=>{
     if (error1){console.error(error1);}
-    console.log(data1.results);
-
-    // fetchData(`${API}/pokemon/${data1.results}`, (error2, data2)=>{
-    //     if (error2){console.error(error2); }
-
-    //     fetchData(`${API}/results/${data2?.results[0]}`, (error3, data3)=>{
-    //         if (error3){console.error(error3); }
-    //         console.log(data1[0]); 
-    //         console.log(data2.name);
-    //         console.log(data3.forms);
-    //     })
-    // })
+        fetchData(`${API}/pokemon/${data1.results[0].name}`, (error2, data2)=>{ 
+            if (error2){console.error(error2);}
+            const pokemon = data2
+            console.log(`Este es ${pokemon.name}`)
+        })
 } )
