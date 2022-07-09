@@ -3,15 +3,10 @@
   "version": "1.0.0",
   "description": "curso de asincronismo JS",
   "main": "index.js",
-  "dependencies": {
+  "devDependencies": {
     "xmlhttprequest": "^1.8.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "Callback": "node Callbacks/Challenge.js",
-    "Promise": "node Promises/Promises.js",
-    "Promise:challenge": "node Promises/Challenge2"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Camiloco345/Async.git"
