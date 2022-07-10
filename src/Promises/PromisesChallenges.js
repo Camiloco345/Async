@@ -3,10 +3,10 @@ const API = 'https://pokeapi.co/api/v2'
 
 fetch(`${API}/pokemon`)
 .then(response => response.json())
-.then(data => {
+.then(async data => {
         const bulbasaur = data.results[0] 
-         return fetch(`${API}/pokemon/${bulbasaur.name}`)
-         .then(response => response.json())
-         .then(data => console.log(data.abilities))
+         const response = await fetch(`${API}/pokemon/${bulbasaur.name}`);
+        const data_1 = await response.json();
+        return console.log(data_1.abilities);
         
     })
