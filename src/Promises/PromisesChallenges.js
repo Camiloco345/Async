@@ -29,5 +29,7 @@ let fetchData = (urlApi)=>{
             const effect = description.effect_entries[1].effect
             console.log(`Effect name: ${effect}`)
         })
+        .catch(err => console.log(err))
+        .finally(() => {console.log('finally finished')})
 
 
